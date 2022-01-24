@@ -1,0 +1,12 @@
+{
+  "name": "sekolahsma3",
+  "version": "1.0.0",
+  "description": "<b>Warning!</b> It`s only copy of <a href=\"http://wrapbootstrap.com/preview/WB0B30DGR\">ace demo-template</a> from wrapbootstrap. Repo contains minified ace js/css files. You can read more about the license <a href=\"https://wrapbootstrap.com/theme/ace-responsive-admin-template-WB0B30DGR\">here</a>.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

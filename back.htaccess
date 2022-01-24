@@ -1,0 +1,9 @@
+Options +FollowSymLinks
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} -s [OR]
+RewriteCond %{REQUEST_FILENAME} -l [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+
+RewriteRule ^.*$ - [NC,L]
+RewriteRule ^.*$/ [NC,L]
+RewriteRule ^.*$ main.php/ [NC,L]

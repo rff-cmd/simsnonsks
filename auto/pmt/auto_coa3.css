@@ -1,0 +1,57 @@
+#result3 {
+	height:20px;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#333;
+	padding:5px;
+	margin-bottom:10px;
+	background-color:#FFFF99;					
+}
+#country3{
+	padding:3px;
+	border:1px #CCC solid;
+	font-size:12px;
+}
+.suggestionsBox3 {
+	position: absolute; 
+	left: auto;
+	top:auto;
+	margin: 0px 0px 0px 0px;
+	width: 300px;
+	padding:0px;
+	background-color:#409D47;
+	border-top: 3px solid #999999;
+	color: #fff;										
+}
+.suggestionList3 {
+	margin: 0px;
+	padding: 0px;
+}
+.suggestionList3 ul li {
+	list-style:none;
+	margin: 0px;
+	padding: 6px;
+	border-bottom:1px dotted #666;
+	cursor: pointer;
+}
+.suggestionList3 ul li:hover {
+	background-color: #FC3;
+	color:#000;
+}
+ul {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#FFF;
+	padding:0;
+	margin:0;
+}
+
+.load3{
+background-image:url(auto/loader.gif);
+background-position:right;
+background-repeat:no-repeat;
+}
+
+#suggest3 {
+	position:none;
+}

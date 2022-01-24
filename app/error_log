@@ -1,0 +1,98 @@
+[30-Dec-2021 09:09:49 Asia/Jakarta] PHP Warning:  Use of undefined constant submit - assumed 'submit' (this will throw an Error in a future version of PHP) in /home/dianglob/simsnonsks.dianglobaltech.co.id/app/exec/insert_jadwal.php on line 10
+[30-Dec-2021 09:09:49 Asia/Jakarta] PHP Warning:  Use of undefined constant client_cheque_view - assumed 'client_cheque_view' (this will throw an Error in a future version of PHP) in /home/dianglob/simsnonsks.dianglobaltech.co.id/app/jadwal_input.php on line 323
+[03-Jan-2022 09:01:08 Asia/Jakarta] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; OLERead has a deprecated constructor in /home/dianglob/simsnonsks.dianglobaltech.co.id/import/excel_reader2.php on line 95
+[03-Jan-2022 09:01:08 Asia/Jakarta] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Spreadsheet_Excel_Reader has a deprecated constructor in /home/dianglob/simsnonsks.dianglobaltech.co.id/import/excel_reader2.php on line 312
+[04-Jan-2022 12:33:38 Asia/Jakarta] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; OLERead has a deprecated constructor in /home/dianglob/simsnonsks.dianglobaltech.co.id/import/excel_reader2.php on line 95
+[04-Jan-2022 12:33:38 Asia/Jakarta] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Spreadsheet_Excel_Reader has a deprecated constructor in /home/dianglob/simsnonsks.dianglobaltech.co.id/import/excel_reader2.php on line 312
+[04-Jan-2022 12:36:25 Asia/Jakarta] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; OLERead has a deprecated constructor in /home/dianglob/simsnonsks.dianglobaltech.co.id/import/excel_reader2.php on line 95
+[04-Jan-2022 12:36:25 Asia/Jakarta] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Spreadsheet_Excel_Reader has a deprecated constructor in /home/dianglob/simsnonsks.dianglobaltech.co.id/import/excel_reader2.php on line 312
+[04-Jan-2022 12:46:27 Asia/Jakarta] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; OLERead has a deprecated constructor in /home/dianglob/simsnonsks.dianglobaltech.co.id/import/excel_reader2.php on line 95
+[04-Jan-2022 12:46:27 Asia/Jakarta] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Spreadsheet_Excel_Reader has a deprecated constructor in /home/dianglob/simsnonsks.dianglobaltech.co.id/import/excel_reader2.php on line 312
+[04-Jan-2022 13:32:45 Asia/Jakarta] PHP Notice:  Undefined index: logged in /home/dianglob/simsnonsks.dianglobaltech.co.id/app/raport_siswa_ledger_view.php on line 4
+[04-Jan-2022 13:32:48 Asia/Jakarta] PHP Notice:  Undefined index: logged in /home/dianglob/simsnonsks.dianglobaltech.co.id/app/raport_siswa_ledger_view.php on line 4
+[04-Jan-2022 13:32:53 Asia/Jakarta] PHP Notice:  Undefined index: logged in /home/dianglob/simsnonsks.dianglobaltech.co.id/app/raport_siswa_ledger_view.php on line 4
+[05-Jan-2022 10:29:32 Asia/Jakarta] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; OLERead has a deprecated constructor in /home/dianglob/simsnonsks.dianglobaltech.co.id/import/excel_reader2.php on line 95
+[05-Jan-2022 10:29:32 Asia/Jakarta] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Spreadsheet_Excel_Reader has a deprecated constructor in /home/dianglob/simsnonsks.dianglobaltech.co.id/import/excel_reader2.php on line 312
+[05-Jan-2022 10:30:21 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function split() in /home/dianglob/simsnonsks.dianglobaltech.co.id/import/excel_reader2.php:79
+Stack trace:
+#0 /home/dianglob/simsnonsks.dianglobaltech.co.id/import/excel_reader2.php(1623): gmgetdate(1536796800)
+#1 /home/dianglob/simsnonsks.dianglobaltech.co.id/import/excel_reader2.php(1419): Spreadsheet_Excel_Reader->_getCellDetails(17169, 43356.929872685, 20)
+#2 /home/dianglob/simsnonsks.dianglobaltech.co.id/import/excel_reader2.php(1318): Spreadsheet_Excel_Reader->_parsesheet(17169)
+#3 /home/dianglob/simsnonsks.dianglobaltech.co.id/import/excel_reader2.php(991): Spreadsheet_Excel_Reader->_parse()
+#4 /home/dianglob/simsnonsks.dianglobaltech.co.id/import/excel_reader2.php(931): Spreadsheet_Excel_Reader->read('/tmp/phpzGB4Qr')
+#5 /home/dianglob/simsnonsks.dianglobaltech.co.id/app/generate_nilai_leger.php(110): Spreadsheet_Excel_Reader->Spreadsheet_Excel_Reader('/tmp/phpzGB4Qr')
+#6 {main}
+  thrown in /home/dianglob/simsnonsks.dianglobaltech.co.id/import/excel_reader2.php on line 79
+[05-Jan-2022 10:30:40 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function split() in /home/dianglob/simsnonsks.dianglobaltech.co.id/import/excel_reader2.php:79
+Stack trace:
+#0 /home/dianglob/simsnonsks.dianglobaltech.co.id/import/excel_reader2.php(1623): gmgetdate(1536796800)
+#1 /home/dianglob/simsnonsks.dianglobaltech.co.id/import/excel_reader2.php(1419): Spreadsheet_Excel_Reader->_getCellDetails(17169, 43356.929872685, 20)
+#2 /home/dianglob/simsnonsks.dianglobaltech.co.id/import/excel_reader2.php(1318): Spreadsheet_Excel_Reader->_parsesheet(17169)
+#3 /home/dianglob/simsnonsks.dianglobaltech.co.id/import/excel_reader2.php(991): Spreadsheet_Excel_Reader->_parse()
+#4 /home/dianglob/simsnonsks.dianglobaltech.co.id/import/excel_reader2.php(931): Spreadsheet_Excel_Reader->read('/tmp/phpHzNaxi')
+#5 /home/dianglob/simsnonsks.dianglobaltech.co.id/app/generate_nilai_leger.php(110): Spreadsheet_Excel_Reader->Spreadsheet_Excel_Reader('/tmp/phpHzNaxi')
+#6 {main}
+  thrown in /home/dianglob/simsnonsks.dianglobaltech.co.id/import/excel_reader2.php on line 79
+[05-Jan-2022 10:31:14 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function split() in /home/dianglob/simsnonsks.dianglobaltech.co.id/import/excel_reader2.php:79
+Stack trace:
+#0 /home/dianglob/simsnonsks.dianglobaltech.co.id/import/excel_reader2.php(1623): gmgetdate(1536796800)
+#1 /home/dianglob/simsnonsks.dianglobaltech.co.id/import/excel_reader2.php(1419): Spreadsheet_Excel_Reader->_getCellDetails(17169, 43356.929872685, 20)
+#2 /home/dianglob/simsnonsks.dianglobaltech.co.id/import/excel_reader2.php(1318): Spreadsheet_Excel_Reader->_parsesheet(17169)
+#3 /home/dianglob/simsnonsks.dianglobaltech.co.id/import/excel_reader2.php(991): Spreadsheet_Excel_Reader->_parse()
+#4 /home/dianglob/simsnonsks.dianglobaltech.co.id/import/excel_reader2.php(931): Spreadsheet_Excel_Reader->read('/tmp/phpc8LYlN')
+#5 /home/dianglob/simsnonsks.dianglobaltech.co.id/app/generate_nilai_leger.php(110): Spreadsheet_Excel_Reader->Spreadsheet_Excel_Reader('/tmp/phpc8LYlN')
+#6 {main}
+  thrown in /home/dianglob/simsnonsks.dianglobaltech.co.id/import/excel_reader2.php on line 79
+[05-Jan-2022 10:31:43 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function split() in /home/dianglob/simsnonsks.dianglobaltech.co.id/import/excel_reader2.php:79
+Stack trace:
+#0 /home/dianglob/simsnonsks.dianglobaltech.co.id/import/excel_reader2.php(1623): gmgetdate(1536796800)
+#1 /home/dianglob/simsnonsks.dianglobaltech.co.id/import/excel_reader2.php(1419): Spreadsheet_Excel_Reader->_getCellDetails(17169, 43356.929872685, 20)
+#2 /home/dianglob/simsnonsks.dianglobaltech.co.id/import/excel_reader2.php(1318): Spreadsheet_Excel_Reader->_parsesheet(17169)
+#3 /home/dianglob/simsnonsks.dianglobaltech.co.id/import/excel_reader2.php(991): Spreadsheet_Excel_Reader->_parse()
+#4 /home/dianglob/simsnonsks.dianglobaltech.co.id/import/excel_reader2.php(931): Spreadsheet_Excel_Reader->read('/tmp/phpamGI91')
+#5 /home/dianglob/simsnonsks.dianglobaltech.co.id/app/generate_nilai_leger.php(110): Spreadsheet_Excel_Reader->Spreadsheet_Excel_Reader('/tmp/phpamGI91')
+#6 {main}
+  thrown in /home/dianglob/simsnonsks.dianglobaltech.co.id/import/excel_reader2.php on line 79
+[05-Jan-2022 10:32:33 Asia/Jakarta] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; OLERead has a deprecated constructor in /home/dianglob/simsnonsks.dianglobaltech.co.id/import/excel_reader2.php on line 95
+[05-Jan-2022 10:32:33 Asia/Jakarta] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Spreadsheet_Excel_Reader has a deprecated constructor in /home/dianglob/simsnonsks.dianglobaltech.co.id/import/excel_reader2.php on line 312
+[05-Jan-2022 10:32:46 Asia/Jakarta] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; OLERead has a deprecated constructor in /home/dianglob/simsnonsks.dianglobaltech.co.id/import/excel_reader2.php on line 95
+[05-Jan-2022 10:32:46 Asia/Jakarta] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Spreadsheet_Excel_Reader has a deprecated constructor in /home/dianglob/simsnonsks.dianglobaltech.co.id/import/excel_reader2.php on line 312
+[05-Jan-2022 10:32:46 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function split() in /home/dianglob/simsnonsks.dianglobaltech.co.id/import/excel_reader2.php:79
+Stack trace:
+#0 /home/dianglob/simsnonsks.dianglobaltech.co.id/import/excel_reader2.php(1623): gmgetdate(1536796800)
+#1 /home/dianglob/simsnonsks.dianglobaltech.co.id/import/excel_reader2.php(1419): Spreadsheet_Excel_Reader->_getCellDetails(17169, 43356.929872685, 20)
+#2 /home/dianglob/simsnonsks.dianglobaltech.co.id/import/excel_reader2.php(1318): Spreadsheet_Excel_Reader->_parsesheet(17169)
+#3 /home/dianglob/simsnonsks.dianglobaltech.co.id/import/excel_reader2.php(991): Spreadsheet_Excel_Reader->_parse()
+#4 /home/dianglob/simsnonsks.dianglobaltech.co.id/import/excel_reader2.php(931): Spreadsheet_Excel_Reader->read('/tmp/phpYDiwqi')
+#5 /home/dianglob/simsnonsks.dianglobaltech.co.id/app/generate_nilai_leger.php(110): Spreadsheet_Excel_Reader->Spreadsheet_Excel_Reader('/tmp/phpYDiwqi')
+#6 {main}
+  thrown in /home/dianglob/simsnonsks.dianglobaltech.co.id/import/excel_reader2.php on line 79
+[05-Jan-2022 10:33:45 Asia/Jakarta] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; OLERead has a deprecated constructor in /home/dianglob/simsnonsks.dianglobaltech.co.id/import/excel_reader2.php on line 95
+[05-Jan-2022 10:33:45 Asia/Jakarta] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Spreadsheet_Excel_Reader has a deprecated constructor in /home/dianglob/simsnonsks.dianglobaltech.co.id/import/excel_reader2.php on line 312
+[05-Jan-2022 10:43:24 Asia/Jakarta] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; OLERead has a deprecated constructor in /home/dianglob/simsnonsks.dianglobaltech.co.id/import/excel_reader2.php on line 95
+[05-Jan-2022 10:43:24 Asia/Jakarta] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Spreadsheet_Excel_Reader has a deprecated constructor in /home/dianglob/simsnonsks.dianglobaltech.co.id/import/excel_reader2.php on line 312
+[05-Jan-2022 10:43:33 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function split() in /home/dianglob/simsnonsks.dianglobaltech.co.id/import/excel_reader2.php:79
+Stack trace:
+#0 /home/dianglob/simsnonsks.dianglobaltech.co.id/import/excel_reader2.php(1623): gmgetdate(1536796800)
+#1 /home/dianglob/simsnonsks.dianglobaltech.co.id/import/excel_reader2.php(1419): Spreadsheet_Excel_Reader->_getCellDetails(17169, 43356.929872685, 20)
+#2 /home/dianglob/simsnonsks.dianglobaltech.co.id/import/excel_reader2.php(1318): Spreadsheet_Excel_Reader->_parsesheet(17169)
+#3 /home/dianglob/simsnonsks.dianglobaltech.co.id/import/excel_reader2.php(991): Spreadsheet_Excel_Reader->_parse()
+#4 /home/dianglob/simsnonsks.dianglobaltech.co.id/import/excel_reader2.php(931): Spreadsheet_Excel_Reader->read('/tmp/phpMGznxS')
+#5 /home/dianglob/simsnonsks.dianglobaltech.co.id/app/generate_nilai_leger.php(110): Spreadsheet_Excel_Reader->Spreadsheet_Excel_Reader('/tmp/phpMGznxS')
+#6 {main}
+  thrown in /home/dianglob/simsnonsks.dianglobaltech.co.id/import/excel_reader2.php on line 79
+[05-Jan-2022 11:20:46 Asia/Jakarta] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; OLERead has a deprecated constructor in /home/dianglob/simsnonsks.dianglobaltech.co.id/import/excel_reader2.php on line 95
+[05-Jan-2022 11:20:46 Asia/Jakarta] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Spreadsheet_Excel_Reader has a deprecated constructor in /home/dianglob/simsnonsks.dianglobaltech.co.id/import/excel_reader2.php on line 312
+[05-Jan-2022 11:53:56 Asia/Jakarta] PHP Warning:  filesize(): stat failed for surat_masuk/SIN-0719-00003_002.pdf in /home/dianglob/simsnonsks.dianglobaltech.co.id/app/surat_masuk_download.php on line 47
+[05-Jan-2022 12:17:33 Asia/Jakarta] PHP Warning:  filesize(): stat failed for surat_masuk/SIN-0719-00002_001.pdf in /home/dianglob/simsnonsks.dianglobaltech.co.id/app/surat_masuk_download.php on line 47
+[05-Jan-2022 13:29:42 Asia/Jakarta] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; OLERead has a deprecated constructor in /home/dianglob/simsnonsks.dianglobaltech.co.id/import/excel_reader2.php on line 95
+[05-Jan-2022 13:29:42 Asia/Jakarta] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Spreadsheet_Excel_Reader has a deprecated constructor in /home/dianglob/simsnonsks.dianglobaltech.co.id/import/excel_reader2.php on line 312
+[05-Jan-2022 13:30:29 Asia/Jakarta] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; OLERead has a deprecated constructor in /home/dianglob/simsnonsks.dianglobaltech.co.id/import/excel_reader2.php on line 95
+[05-Jan-2022 13:30:29 Asia/Jakarta] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Spreadsheet_Excel_Reader has a deprecated constructor in /home/dianglob/simsnonsks.dianglobaltech.co.id/import/excel_reader2.php on line 312
+[05-Jan-2022 13:31:45 Asia/Jakarta] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; OLERead has a deprecated constructor in /home/dianglob/simsnonsks.dianglobaltech.co.id/import/excel_reader2.php on line 95
+[05-Jan-2022 13:31:45 Asia/Jakarta] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Spreadsheet_Excel_Reader has a deprecated constructor in /home/dianglob/simsnonsks.dianglobaltech.co.id/import/excel_reader2.php on line 312
+[05-Jan-2022 13:52:09 Asia/Jakarta] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; OLERead has a deprecated constructor in /home/dianglob/simsnonsks.dianglobaltech.co.id/import/excel_reader2.php on line 95
+[05-Jan-2022 13:52:09 Asia/Jakarta] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Spreadsheet_Excel_Reader has a deprecated constructor in /home/dianglob/simsnonsks.dianglobaltech.co.id/import/excel_reader2.php on line 312
+[06-Jan-2022 14:54:07 Asia/Jakarta] PHP Notice:  Undefined index: logged in /home/dianglob/simsnonsks.dianglobaltech.co.id/app/generate_nilai_leger.php on line 4
+[06-Jan-2022 14:54:09 Asia/Jakarta] PHP Notice:  Undefined index: logged in /home/dianglob/simsnonsks.dianglobaltech.co.id/app/generate_nilai_leger.php on line 4
+[06-Jan-2022 21:06:04 Asia/Jakarta] PHP Warning:  filesize(): stat failed for surat_masuk/SIN-0719-00002_001.pdf in /home/dianglob/simsnonsks.dianglobaltech.co.id/app/surat_masuk_download.php on line 47

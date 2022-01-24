@@ -1,0 +1,59 @@
+/* CSS Document */
+#resulttujuan {
+	height:20px;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#333;
+	padding:5px;
+	margin-bottom:10px;
+	background-color:#FFFF99;
+}
+#countrytujuan{
+	padding:3px;
+	border:1px #CCC solid;
+	font-size:12px;
+}
+.suggestionstujuanBox {
+	position: absolute;
+	left: 0px;
+	top:20px;
+	margin: 26px 0px 0px 0px;
+	width: 200px;
+	padding:0px;
+	background-color:#409D47;
+	border-top: 3px solid #999999;
+	color: #fff;
+}
+.suggestionstujuanList {
+	margin: 0px;
+	padding: 0px;
+}
+.suggestionstujuanList ul li {
+	list-style:none;
+	margin: 0px;
+	padding: 6px;
+	border-bottom:1px dotted #666;
+	cursor: pointer;
+}
+.suggestionstujuanList ul li:hover {
+	background-color: #FC3;
+	color:#000;
+}
+ul {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#FFF;
+	padding:0;
+	margin:0;
+}
+
+.loadtujuan{
+background-image:url(auto/loader.gif);
+background-position:right;
+background-repeat:no-repeat;
+}
+
+#suggesttujuan {
+	position: relative;
+	z-index: inherit;
+}
