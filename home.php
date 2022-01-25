@@ -1,7 +1,7 @@
 <?php
-session_start();
-error_reporting(E_ALL & ~E_NOTICE);
-ob_start();
+// session_start();
+// error_reporting(E_ALL & ~E_NOTICE);
+// ob_start();
 
 include("app/include/sambung.php");
 include("app/include/functions.php");
