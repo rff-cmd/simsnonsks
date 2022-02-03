@@ -270,7 +270,7 @@ $protection=new protection;
 								
 					?>
 				
-							<form class="form-horizontal" role="form" action="" method="post" name="siswa_lis" id="siswa_list" enctype="multipart/form-data" >
+							<form class="form-horizontal" role="form" action="" method="post" name="siswa_list" id="siswa_list" enctype="multipart/form-data" >
 							
 								<input type="hidden" id="idtingkat" name="idtingkat" value="<?php echo $idtingkat2 ?>" />
 								<input type="hidden" id="idkelas" name="idkelas" value="<?php echo $idkelas2 ?>" />

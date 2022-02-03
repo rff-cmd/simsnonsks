@@ -179,7 +179,7 @@ if($idtahunajaran == "") {
 			<div class="row">
 				<div class="col-xs-12">
 				
-					<form class="form-horizontal" role="form" action="" method="post" name="siswa_lis" id="siswa_list" enctype="multipart/form-data" >
+					<form class="form-horizontal" role="form" action="" method="post" name="siswa_list" id="siswa_list" enctype="multipart/form-data" >
 		            	
 		            	<div class="form-group">
 							<label class="col-sm-3 control-label no-padding-right" for="form-field-1">Tahun Ajaran</label>

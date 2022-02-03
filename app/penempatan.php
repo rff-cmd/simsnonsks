@@ -139,7 +139,7 @@ if($all == 1) {
 				<div class="row">
 					<div class="col-xs-12">
 					
-						<form class="form-horizontal" role="form" action="" method="post" name="siswa_lis" id="siswa_list" enctype="multipart/form-data" >
+						<form class="form-horizontal" role="form" action="" method="post" name="siswa_list" id="siswa_list" enctype="multipart/form-data" >
 			            	
 			            	<!--<div class="form-group">
 								<label class="col-sm-3 control-label no-padding-right" for="form-field-1">Tingkat</label>
@@ -181,7 +181,7 @@ if($all == 1) {
 								</div>
 							</div>
 							
-							<div class="form-group">
+							<!-- <div class="form-group">
 								<label class="col-sm-3 control-label no-padding-right" for="form-field-1">Nama Gugus</label>
 								<div class="col-sm-3">
 									<select name="idgugus" id="idgugus" class="chosen-select form-control" >
@@ -189,7 +189,7 @@ if($all == 1) {
 										<?php populate_select("gugus","replid","gugus",$idgugus) ?>
 									</select>								
 								</div>
-							</div>
+							</div> -->
 							
 							<div class="form-group">
 								<label class="col-sm-3 control-label no-padding-right" for="form-field-1">Jenis Kelamin</label>
@@ -265,7 +265,7 @@ if($all == 1) {
 	                                    <th>NISN</th>
 	                                    <th>Nama Lengkap</th>
 	                                    <th>Jenis Kelamin</th>
-	                                    <th>Gugus</th>
+	                                    <!-- <th>Gugus</th> -->
 	                                    <th>Agama</th>
 	                                    <th>Tgl/Jam Input</th>
 										<th style="text-align: center">

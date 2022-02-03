@@ -895,14 +895,14 @@ if ( $act == obraxabrix('backup') ) {
 
             				<b class="arrow"></b>
             			</li>
-            			<li class="<?php echo $gugus_active ?>">
+            			<!-- <li class="<?php echo $gugus_active ?>">
             				<a href="<?php echo $nama_folder ?>/<?php echo obraxabrix('gugus') ?>">
             					<i class="menu-icon fa fa-caret-right"></i>
             					<?php if ($_SESSION['bahasa']==1) { echo "Group"; } else { echo "Gugus MPLS"; } ?>
             				</a>
 
             				<b class="arrow"></b>
-            			</li>
+            			</li> -->
             			<li class="<?php echo $tingkat_active ?>">
             				<a href="<?php echo $nama_folder ?>/<?php echo obraxabrix('tingkat') ?>">
             					<i class="menu-icon fa fa-caret-right"></i>

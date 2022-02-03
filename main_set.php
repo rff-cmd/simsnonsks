@@ -80,7 +80,7 @@ if (( $_SESSION["logged"] == 0)) {
 	}*/
 ?>
 	<script>
-		window.location = 'http://116.197.132.138:8028/sman28jkt';
+		window.location = 'http://116.197.132.138:8028/';
 	</script>
 <?php	
 	exit;

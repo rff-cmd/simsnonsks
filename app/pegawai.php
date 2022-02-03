@@ -396,7 +396,7 @@
 						<div class="row">
 							
 							<div class="form-group">
-								<label class="col-sm-3 control-label no-padding-right" for="form-field-1">TMT di SMAN 3</label>
+								<label class="col-sm-3 control-label no-padding-right" for="form-field-1">TMT di SMAN 28</label>
 								<div class="col-sm-6">
 									<input type="text" name="unit_cpns" id="unit_cpns" class="form-control date-picker" data-date-format="dd-mm-yyyy" value="<?php echo $unit_cpns; ?>" >
 								</div>

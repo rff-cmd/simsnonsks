@@ -72,7 +72,7 @@
 		<a href="<?php echo $nama_folder ?>/<?php echo obraxabrix('main') ?>" class="navbar-brand">
 			<small>
 				<!--<i class="fa fa-leaf"></i>-->
-				SMAN 28 JAKARTA
+				SIMS | SMAN 28 JAKARTA
 			</small>
 		</a>
 	</div>

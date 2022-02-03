@@ -540,8 +540,8 @@ function select_sifat($selected){
 	
 	$sql="select a.cde, a.dcr from 
 		(select '0' cde, 'Ekstrakurikuler' dcr, 0 nmr union all 
-		select '1' cde, 'Wajib-A' dcr, 1 nmr union all
-		select '2' cde, 'Wajib-B' dcr, 2 nmr union all
+		select '1' cde, 'Umum-A' dcr, 1 nmr union all
+		select '2' cde, 'Umum-B' dcr, 2 nmr union all
 		select '3' cde, 'Peminatan' dcr, 3 nmr union all
 		select '4' cde, 'Lintas Minat' dcr, 4 nmr) a order by nmr";
 	$results=$dbpdo->query($sql);

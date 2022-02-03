@@ -19,7 +19,7 @@ if (( isset($_SESSION["logged"]) == 1)) {
 	<head>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 		<meta charset="utf-8" />
-		<title>Login</title>
+		<title>SIMS | SMAN 28 JAKARTA</title>
 
 		<meta name="description" content="User login page" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
@@ -77,7 +77,7 @@ if (( isset($_SESSION["logged"]) == 1)) {
 												Silahkan Login
 											</h4>-->
 											<div align="center">
-												<img src="assets/img/logo.png" height="150" width="150"/>
+												<img src="assets/img/logo1.png" height="150" width="150"/>
 												<br><br> Login
 											</div>
 
